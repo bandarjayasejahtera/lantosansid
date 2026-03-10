@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "../../../../components/ui/card";
 import { Button } from "../../../../components/ui/button";
-import { services } from "../../../../data/services";
+import { services } from "../../../../persuratan/persuratan";
 
 export default function LayananPage() {
   return (

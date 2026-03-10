@@ -14,7 +14,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../../../../../components/ui/card";
-import { services } from "../../../../../data/services"; // We might need to adjust this if we want to fetch by slug
+import { services } from "../../../../../persuratan/persuratan"; // We might need to adjust this if we want to fetch by slug
 
 const steps = ["Pengajuan", "Verifikasi", "Tanda Tangan", "Selesai"];
 

@@ -1,5 +1,5 @@
-import { Hero } from "../../components/home/Hero";
-import { BentoGrid } from "../../components/home/BentoGrid";
+import { Hero } from "../home/Hero";
+import { BentoGrid } from "../home/BentoGrid";
 
 export default function HomePage() {
   return (

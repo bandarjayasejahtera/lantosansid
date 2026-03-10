@@ -26,8 +26,8 @@ import {
   CommandList,
   CommandSeparator,
   CommandShortcut,
-} from "../ui/command"
-import { Button } from "../ui/button"
+} from "../../components/ui/command"
+import { Button } from "../../components/ui/button"
 
 export function SearchCommand() {
   const [open, setOpen] = React.useState(false)

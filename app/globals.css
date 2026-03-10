@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Sea Green (Primary) */
+  --sea-green-500: #00ffc4;
+  --sea-green-950: #00241b;
+
+  /* Linen (Background/Warmth) */
+  --linen-50: #fef0e6;
+  --linen-500: #f66809;
+
+  /* Bright Amber (Highlight) */
+  --bright-amber: #ffd000;
+
+  /* Status/Alert */
+  --cayenne-red: #d32f2f;
+  --lipstick-red: #c2185b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #00241b; /* sea-green-950 */
+    --foreground: #ededed;
+    --linen-50: #001a13; /* Darker variant for cards/sections */
+  }
+}
+
+body {
+  background: var(--linen-50);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta-sans), sans-serif;
+}
